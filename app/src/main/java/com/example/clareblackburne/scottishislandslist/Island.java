@@ -19,7 +19,7 @@ public class Island {
     }
 
 
-    public int getPopulation() {
+    public Integer getPopulation() {
         return this.population;
     }
 
