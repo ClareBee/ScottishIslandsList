@@ -20,6 +20,6 @@ public class IslandActivity extends AppCompatActivity {
         islandText = (TextView)findViewById(R.id.name_view);
         islandText.setText(name);
         populationText = (TextView)findViewById(R.id.population_view);
-        populationText.setText(population);
+        populationText.setText(population + " people");
     }
 }

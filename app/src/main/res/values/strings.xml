@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ScottishIslandsList</string>
+    <string name="population">Population: </string>
+    <string name="Population">Population:</string>
 </resources>
