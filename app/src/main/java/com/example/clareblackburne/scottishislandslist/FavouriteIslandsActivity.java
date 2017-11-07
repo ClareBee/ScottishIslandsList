@@ -27,7 +27,7 @@ public class FavouriteIslandsActivity extends AppCompatActivity {
         Island island = (Island) listItem.getTag();
         Intent i = new Intent(this, IslandActivity.class);
         i.putExtra("name", island.getName());
-        i.putExtra("population", island.getPopulation());
+        i.putExtra("population", island.getPopulation().toString());
         startActivity(i);
     }
 }

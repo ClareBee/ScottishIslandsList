@@ -6,10 +6,10 @@ package com.example.clareblackburne.scottishislandslist;
 
 public class Island {
 
-    String name;
-    int population;
+    private String name;
+    private int population;
 
-    public Island(String name, int population){
+    public Island(String name, Integer population){
         this.name = name;
         this.population = population;
     }
