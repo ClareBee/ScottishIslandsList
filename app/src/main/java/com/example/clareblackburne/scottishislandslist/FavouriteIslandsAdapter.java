@@ -27,7 +27,7 @@ public class FavouriteIslandsAdapter extends ArrayAdapter<Island> {
         TextView name = (TextView)listItemView.findViewById(R.id.name_view);
         name.setText(currentIsland.getName());
         TextView population = (TextView)listItemView.findViewById(R.id.population_view);
-        population.setText(currentIsland.getPopulation().toString());
+        population.setText("Population: " + currentIsland.getPopulation().toString());
 
         listItemView.setTag(currentIsland);
         return listItemView;
